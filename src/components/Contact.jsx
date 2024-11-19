@@ -44,11 +44,13 @@ const Contact = () => {
     <section id='contact' className='section'>
       <div className='container'>
         <div className='mb-10 lg:mg-12'>
-          <h2 className='headline-2'>Contact me for collaboration</h2>
+          <h2 className='headline-2'>
+            If you&apos;re interested, feel open to contact me
+          </h2>
 
           <p className='mt-3 mb-8 text-zinc-400'>
-            Reach out today to discuss your project needs and start //
-            collaborating on something amazing!
+            You can contact me via Mail or Linkedin, i&apos;ll answer you as
+            soon as posible
           </p>
 
           <div className='flex items-center gap-2 mt-auto'>

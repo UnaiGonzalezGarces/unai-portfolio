@@ -20,7 +20,7 @@ const socialLinks = [
     alt: 'GitHub',
   },
   {
-    href: 'https://www.linkedin.com/in/codewithsadee',
+    href: 'https://www.linkedin.com/in/unai-gonz%C3%A1lez-858b35273/',
     icon: (
       <svg
         width='24'

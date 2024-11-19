@@ -8,9 +8,13 @@ const ProjectCard = ({ imgSrc, title, tags, projectLink, classes }) => {
         classes
       }
     >
-      <figure className='mb-4 rounded-lg img-box aspect-square'>
-        <img src={imgSrc} alt={title} className='img-cover' loading='lazy' />
-      </figure>
+      {imgSrc ? (
+        <figure className='mb-4 rounded-lg img-box aspect-square'>
+          <img src={imgSrc} alt={title} className='img-cover' loading='lazy' />
+        </figure>
+      ) : (
+        <figure className='mb-4 rounded-lg aspect-square'></figure>
+      )}
 
       <div className='flex items-center justify-between gap-4'>
         <div>
@@ -52,7 +56,7 @@ const ProjectCard = ({ imgSrc, title, tags, projectLink, classes }) => {
 };
 
 ProjectCard.propTypes = {
-  imgSrc: PropTypes.string.isRequired,
+  imgSrc: PropTypes.string,
   title: PropTypes.string.isRequired,
   tags: PropTypes.array.isRequired,
   projectLink: PropTypes.string,

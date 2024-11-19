@@ -2,10 +2,10 @@ import ProjectCard from './ProjectCard';
 
 const projects = [
   {
-    imgSrc: '/images/project-1.jpg',
-    title: 'Full stack music app',
-    tags: ['API', 'MVC', 'Development'],
-    projectLink: 'https://musify-5al0.onrender.com/',
+    imgSrc: '/images/project-1.png',
+    title: 'Company management dashboard app',
+    tags: ['React', 'NextJS', 'MongoDB'],
+    projectLink: 'https://github.com/UnaiGonzalezGarces/company-dashboard',
   },
   {
     imgSrc: '',

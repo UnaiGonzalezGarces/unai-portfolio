@@ -2,7 +2,7 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import About from './components/About';
 import Skills from './components/Skills';
-import Work from './components/Work';
+import Projects from './components/Projects';
 import Contact from './components/Contact';
 
 const App = () => {
@@ -13,9 +13,9 @@ const App = () => {
         <Hero />
         <About />
         <Skills />
-        <Work />
-        <Contact />
+        <Projects />
       </main>
+      <Contact />
     </>
   );
 };

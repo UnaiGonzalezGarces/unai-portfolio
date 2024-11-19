@@ -1,6 +1,6 @@
 import ProjectCard from './ProjectCard';
 
-const works = [
+const projects = [
   {
     imgSrc: '/public/project-1.jpg',
     title: 'Full stack music app',
@@ -39,14 +39,14 @@ const works = [
   },
 ];
 
-const Work = () => {
+const Projects = () => {
   return (
-    <section className='section' id='work'>
+    <section className='section' id='projects'>
       <div className='container'>
         <h2 className='mb-8 headline-2'>My portfolio highlights</h2>
 
         <div className='grid gap-x-4 gap-y-5 grid-cols-[repeat(auto-fill,_minmax(280px,_1fr))]'>
-          {works.map(({ imgSrc, title, tags, projectLink }, key) => (
+          {projects.map(({ imgSrc, title, tags, projectLink }, key) => (
             <ProjectCard
               key={key}
               imgSrc={imgSrc}
@@ -61,4 +61,4 @@ const Work = () => {
   );
 };
 
-export default Work;
+export default Projects;

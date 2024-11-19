@@ -22,7 +22,7 @@ const Hero = () => {
             <ButtonPrimary
               label='Download CV'
               icon='download'
-              download='/documents/CV Unai Gonzalez Garcés.pdf'
+              download='/documents/cv_ugonzalez.pdf'
             />
             <ButtonOutline
               href='#about'

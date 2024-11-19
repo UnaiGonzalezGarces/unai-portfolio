@@ -29,11 +29,14 @@ const ProjectCard = ({ imgSrc, title, tags, projectLink, classes }) => {
 
         {projectLink ? (
           <>
-            <div className='grid rounded-lg w-11 h-11 place-items-center bg-sky-400 text-zinc-950 shrink-0'>
-              <span className='material-symbols-rounded' aria-hidden='true'>
-                arrow_outward
-              </span>
+            <div>
+              <div className='grid rounded-lg w-11 h-11 place-items-center bg-sky-400 text-zinc-950 shrink-0'>
+                <span className='material-symbols-rounded' aria-hidden='true'>
+                  arrow_outward
+                </span>
+              </div>
             </div>
+
             <a
               href={projectLink}
               className='absolute inset-0'

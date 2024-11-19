@@ -2,7 +2,7 @@ import { ButtonPrimary } from './Button';
 
 const socialLinks = [
   {
-    href: 'https://www.github.com/codewithsadee-org',
+    href: 'https://github.com/UnaiGonzalezGarces',
     icon: (
       <svg
         width='24'

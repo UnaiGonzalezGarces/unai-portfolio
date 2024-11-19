@@ -28,7 +28,7 @@ body {
 }
 
 .headline-2 {
-  @apply text-3xl lg:text-4xl lg:leading-tight font-semibold;
+  @apply text-3xl font-semibold lg:text-4xl lg:leading-tight;
 }
 
 .title-1 {
@@ -47,15 +47,19 @@ body {
 }
 
 .img-box {
-  @apply bg-zinc-700 overflow-hidden;
+  @apply overflow-hidden bg-zinc-700;
 }
 
 .img-cover {
-  @apply w-full h-full object-cover;
+  @apply object-cover w-full h-full;
 }
 
 .section {
   @apply pt-20 lg:pt-32;
+}
+
+.reveal-up {
+  @apply translate-y-20 opacity-0;
 }
 
 /* COMPONENTS */
@@ -73,15 +77,15 @@ body {
 }
 
 .navbar.active {
-  @apply opacity-100 scale-100 blur-0 visible;
+  @apply visible scale-100 opacity-100 blur-0;
 }
 
 .nav-link {
-  @apply grid items-center h-9 px-4 text-sm font-medium tracking-wide text-zinc-50/50 hover:text-zinc-50 transition-colors;
+  @apply grid items-center px-4 text-sm font-medium tracking-wide transition-colors h-9 text-zinc-50/50 hover:text-zinc-50;
 }
 
 .nav-link.active {
-  @apply text-zinc-900 duration-500;
+  @apply duration-500 text-zinc-900;
 }
 
 .navbar .active-box {
@@ -114,11 +118,11 @@ body {
 }
 
 .label {
-  @apply block text-zinc-200 text-sm  font-normal mb-2;
+  @apply block mb-2 text-sm font-normal text-zinc-200;
 }
 
 .text-field {
-  @apply block outline-none w-full px-3 py-3 text-sm bg-zinc-800 rounded-xl ring-1 ring-inset ring-transparent transition-shadow hover:ring-zinc-50/5 focus:ring-sky-400 focus:ring-2;
+  @apply block w-full px-3 py-3 text-sm transition-shadow outline-none bg-zinc-800 rounded-xl ring-1 ring-inset ring-transparent hover:ring-zinc-50/5 focus:ring-sky-400 focus:ring-2;
 }
 
 .text-field::placeholder {
